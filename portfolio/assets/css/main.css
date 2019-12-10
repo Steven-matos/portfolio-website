@@ -2253,7 +2253,7 @@ input, select, textarea {
 	}
 
 		ul.actions li {
-			padding: 0 0 0 1em;
+			padding: 1em 0 0 1em;
 			vertical-align: middle;
 		}
 
@@ -2639,6 +2639,7 @@ input, select, textarea {
 		}
 
 		#header .image.avatar {
+			/* transform: rotate(90deg); */
 			margin: 0 0 1em 0;
 			width: 6.25em;
 		}
