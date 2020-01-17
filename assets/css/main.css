@@ -2187,6 +2187,22 @@ input, select, textarea {
 		margin: 0 0 2em 0;
 	}
 
+	/* technical skills section */
+
+	.tech-title{
+		text-align: center;
+	}
+
+	.techskills {
+		display: flex;
+		justify-content: space-evenly;
+		align-items: center;
+	}
+
+	.techskills li {
+		list-style: none;
+	}
+
 /* Icons */
 
 	ul.icons {
