@@ -1,111 +1,233 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <!--
 	Strata by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
 <html>
-	<head>
-		<title>Steven Matos Portfolio</title>
-		<link rel="apple-touch-icon" sizes="60x60" href="favicon_package_v0.16/apple-touch-icon.png">
-		<link rel="icon" type="image/png" sizes="32x32" href="favicon_package_v0.16/favicon-32x32.png">
-		<link rel="icon" type="image/png" sizes="16x16" href="favicon_package_v0.16/favicon-16x16.png">
-		<link rel="manifest" href="favicon_package_v0.16/site.webmanifest">
-		<link rel="mask-icon" href="favicon_package_v0.16/safari-pinned-tab.svg" color="#5bbad5">
-		<meta name="msapplication-TileColor" content="#da532c">
-		<meta name="theme-color" content="#ffffff">
-		<meta charset="utf-8" />
-		<meta name="google-site-verification" content="MYVJKxcJ5zAdvl-H40rBlO9dko3qK4-4BJSKU7sudK0" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<meta property="og:image" content="images/PortfolioPreview.png">
-		<meta property="og:description" content="A website of most recent works of websites and web apps by Steven M.">
-		<meta property="og:title" content="Steven Matos Portfolio">
-		<link rel="stylesheet" href="assets/css/main.css" />
-	</head>
-	<body class="is-preload">
+  <head>
+    <title>Steven Matos Portfolio</title>
+    <link
+      rel="apple-touch-icon"
+      sizes="60x60"
+      href="favicon_package_v0.16/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="favicon_package_v0.16/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="favicon_package_v0.16/favicon-16x16.png"
+    />
+    <link rel="manifest" href="favicon_package_v0.16/site.webmanifest" />
+    <link
+      rel="mask-icon"
+      href="favicon_package_v0.16/safari-pinned-tab.svg"
+      color="#5bbad5"
+    />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
+    <meta charset="utf-8" />
+    <meta
+      name="google-site-verification"
+      content="MYVJKxcJ5zAdvl-H40rBlO9dko3qK4-4BJSKU7sudK0"
+    />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, user-scalable=no"
+    />
+    <meta property="og:image" content="images/PortfolioPreview.png" />
+    <meta
+      property="og:description"
+      content="A website of most recent works of websites and web apps by Steven M."
+    />
+    <meta property="og:title" content="Steven Matos Portfolio" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+  </head>
+  <body class="is-preload">
+    <!-- Header -->
+    <header id="header">
+      <div class="inner">
+        <img
+          class="image avatar"
+          src="images/avatar.png"
+          alt="Image of Steven"
+        />
+        <h1>
+          <strong>Steven A. Matos</strong><br />
+          a Full Stack Web Developer
+        </h1>
+      </div>
+    </header>
 
-		<!-- Header -->
-			<header id="header">
-				<div class="inner">
-					<img class="image avatar" src="images/avatar.png" alt="Image of Steven" />
-					<h1><strong>Steven A. Matos</strong><br />
-						 a Full Stack Web Developer</h1>
-				</div>
-			</header>
+    <!-- Main -->
+    <div id="main">
+      <!-- One -->
+      <section id="one">
+        <header class="major">
+          <h2>About</h2>
+        </header>
+        <p>
+          I have spent the last 2 years learning and exploring software
+          development mainly in the front-end development side. It has been an
+          exciting journey as I have found my passion and enjoy creating single
+          page websites and web applications.
+        </p>
 
-		<!-- Main -->
-			<div id="main">
+        <h2 class="tech-title">Technical Skills</h2>
+        <ul class="techskills">
+          <div>
+            <li>HTML5</li>
+            <li>CSS</li>
+            <li>Less/Sass</li>
+            <li>SQLite</li>
+            <li>AWS</li>
+          </div>
+          <div>
+            <li>Javascript</li>
+            <li>React</li>
+            <li>Redux</li>
+            <li>Node.js</li>
+            <li>Postgres</li>
+          </div>
+        </ul>
 
-				<!-- One -->
-					<section id="one">
-						<header class="major">
-							<h2>About</h2>
-						</header>
-						<p>I have spent the last 2 years learning and exploring software development mainly in the front-end development side. It has been an exciting journey as I have found my passion and enjoy creating single page websites and web applications.</p>
-						
-						<h2 class="tech-title">Technical Skills</h2>
-						<ul class='techskills'>
-							<div>
-							<li>HTML5</li>
-							<li>CSS</li>
-							<li>Less/Sass</li>
-							</div>
-							<div>
-							<li>Javascript</li>
-							<li>React</li>
-							<li>Node.js</li>
-							</div>
-						</ul>
-
-
-						<!-- <ul class="actions">
+        <!-- <ul class="actions">
 							<li><a href="#" class="button">Web Page</a></li>
 						</ul> -->
-					
-					</section>
+      </section>
 
-				<!-- Two -->
-					<section id="two">
-						<h2>Recent Work</h2>
-						<div class="row">
-							<article class="col-6 col-12-xsmall work-item">
-								<a href="images/fulls/GIFpageR.png" class="image fit thumb"><img src="images/thumbs/GIFpageR.png" alt="Gif-search-page preview" /></a>
-								<h3>Gif Page</h3>
-								<p>I created this single page website that uses GIPHY API to render a list of Gifs on a webpage. I incorporated the API to be able to search within the API using axios to be able to create the search functionality on the web page.</p>
-								<ul class="actions">
-									<li><a href="https://steven-matos.github.io/Gif-search-page/" target="_blank" class="button">Web Page</a></li>
-									<li><a href="https://github.com/Steven-matos/Gif-search-page" target="_blank" class="button">Code <i class="fas fa-code-branch"></i></a></li>
-								</ul>
-							</article>
-							<article class="col-6 col-12-xsmall work-item">
-								<a href="images/fulls/nasa-preveiw.png" class="image fit thumb"><img src="images/thumbs/nasa-preveiw.png" alt="Flexbox Challenge preview" /></a>
-								<h3>Nasa's Picture of the day</h3>
-								<p>The Program was create to display nasa api information of the picture of the day.<br/> The Page was written in React and styled with styled-components.</p>
-								<ul class="actions">
-									<li><a href="https://nasa-pod-cards.now.sh/" target="_blank" class="button">Web Page</a></li>
-									<li><a href="https://github.com/Steven-matos/nasa-photo-of-the-day" target="_blank" class="button">Code <i class="fas fa-code-branch"></i></a></li>
-								</ul>
-							</article>
-							<article class="col-6 col-12-xsmall work-item">
-								<a href="images/fulls/Foodie_Fun.png" class="image fit thumb"><img src="images/thumbs/Foodie_Fun.png" alt="Ana's Bakery page preview" /></a>
-								<h3>Foodie Fun Project</h3>
-								<p>Page was made to demo a food saver website where you can add restaurants and reviews of restaurants to be able to know what you have had there and if it was good.<br/>Created with React.js.</p>
-								<ul class="actions">
-									<li><a href="https://foodie-fun-build-week.netlify.com/" target="_blank" class="button">Web Page</a></li>
-									<li><a href="https://github.com/Build-Week-FoodieFun-3/Front-end" target="_blank" class="button">Code <i class="fas fa-code-branch"></i></a></li>
-								</ul>
-							</article>
-							<article class="col-6 col-12-xsmall work-item">
-								<a href="images/fulls/FoodTruck-website.png" class="image fit thumb"><img src="images/thumbs/FoodTruck-website.png" alt="" /></a>
-								<h3>FoodTruck TrackR</h3>
-								<p>This Marketing page was created to display an app that was made within a group.<br/> The page was made with HTML and Less.</p>
-								<ul class="actions">
-									<li><a href="https://foodtrackrus.netlify.com" target="_blank" class="button">Web Page</a></li>
-									<li><a href="https://github.com/BW-BH-FoodTruck2/marketing-page" target="_blank" class="button">Code<i class="fas fa-code-branch"></i></a></li>
-								</ul>
-							</article>
-							
-							<!-- <article class="col-6 col-12-xsmall work-item">
+      <!-- Two -->
+      <section id="two">
+        <h2>Recent Work</h2>
+        <div class="row">
+          <article class="col-6 col-12-xsmall work-item">
+            <a href="images/fulls/groa.png" class="image fit thumb"
+              ><img src="images/fulls/groa.png" alt="Gif-search-page preview"
+            /></a>
+            <h3>Groa</h3>
+            <p>
+              Groa is a un-bais movie recommendation service. I mainly worked on
+              restructuring and refactoring the Backend API for the site to
+              implement database changes that were made by the Data Science
+              team. I also worked on refactoring the Front-end user-facing
+              content for movie cards.<br />
+              Web app is made with React.js front-end and Node.js Backend.
+            </p>
+            <ul class="actions">
+              <li>
+                <a href="https://www.groa.us/" target="_blank" class="button"
+                  >Web Page</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://github.com/Lambda-School-Labs/Groa-fe"
+                  target="_blank"
+                  class="button"
+                  >Code <i class="fas fa-code-branch"></i
+                ></a>
+              </li>
+            </ul>
+          </article>
+          <article class="col-6 col-12-xsmall work-item">
+            <a href="images/fulls/nasa-preveiw.png" class="image fit thumb"
+              ><img
+                src="images/thumbs/nasa-preveiw.png"
+                alt="Flexbox Challenge preview"
+            /></a>
+            <h3>Nasa's Picture of the day</h3>
+            <p>
+              The Program was create to display nasa api information of the
+              picture of the day.<br />
+              The Page was written in React and styled with styled-components.
+            </p>
+            <ul class="actions">
+              <li>
+                <a
+                  href="https://nasa-pod-cards.now.sh/"
+                  target="_blank"
+                  class="button"
+                  >Web Page</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://github.com/Steven-matos/nasa-photo-of-the-day"
+                  target="_blank"
+                  class="button"
+                  >Code <i class="fas fa-code-branch"></i
+                ></a>
+              </li>
+            </ul>
+          </article>
+          <article class="col-6 col-12-xsmall work-item">
+            <a href="images/fulls/Foodie_Fun.png" class="image fit thumb"
+              ><img
+                src="images/thumbs/Foodie_Fun.png"
+                alt="Ana's Bakery page preview"
+            /></a>
+            <h3>Foodie Fun Project</h3>
+            <p>
+              Page was made to demo a food saver website where you can add
+              restaurants and reviews of restaurants to be able to know what you
+              have had there and if it was good.<br />Created with React.js.
+            </p>
+            <ul class="actions">
+              <li>
+                <a
+                  href="https://foodie-fun-build-week.netlify.com/"
+                  target="_blank"
+                  class="button"
+                  >Web Page</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://github.com/Build-Week-FoodieFun-3/Front-end"
+                  target="_blank"
+                  class="button"
+                  >Code <i class="fas fa-code-branch"></i
+                ></a>
+              </li>
+            </ul>
+          </article>
+          <article class="col-6 col-12-xsmall work-item">
+            <a href="images/fulls/Ocean_vibes.png" class="image fit thumb"
+              ><img src="images/fulls/Ocean_vibes.png" alt=""
+            /></a>
+            <h3>Ocean Vides Aquarium</h3>
+            <p>
+              Webpage was created for a local buisness that requested a
+              marketing page.<br />
+              Created with React.js | Material.UI
+            </p>
+            <ul class="actions">
+              <li>
+                <a
+                  href="https://oceanvibesaquariums.com/"
+                  target="_blank"
+                  class="button"
+                  >Web Page</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://github.com/Steven-matos/Ocean_Vibes"
+                  target="_blank"
+                  class="button"
+                  >Code <i class="fas fa-code-branch"></i
+                ></a>
+              </li>
+            </ul>
+          </article>
+
+          <!-- <article class="col-6 col-12-xsmall work-item">
 								<a href="images/fulls/05.jpg" class="image fit thumb"><img src="images/thumbs/05.jpg" alt="" /></a>
 								<h3>Nunc enim commodo aliquet</h3>
 								<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
@@ -115,55 +237,106 @@
 								<h3>Risus ornare lacinia</h3>
 								<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
 							</article> -->
+        </div>
+        <h2>More Info</h2>
+        <ul class="actions">
+          <li>
+            <a
+              href="https://github.com/Steven-matos"
+              target="_blank"
+              class="button"
+              >Github Portfolio <i class="fab fa-github-alt"></i
+            ></a>
+          </li>
+          <li>
+            <a
+              href="#"
+              target="_blank"
+              class="button"
+              href="/assets/Steven_Matos.pdf"
+              download="Steven_Matos_Resume"
+              >Resume <i class="fas fa-file-alt"></i
+            ></a>
+          </li>
+        </ul>
+      </section>
 
-						</div>
-						<h2>More Info</h2>
-						<ul class="actions">
-							<li><a href="https://github.com/Steven-matos" target="_blank" class="button">Github Portfolio <i class="fab fa-github-alt"></i></a></li>
-							<li><a href="#" target="_blank" class="button">Resume <i class="fas fa-file-alt"></i></a></li>
-						</ul>
-					</section>
+      <!-- Three -->
+      <section id="three">
+        <h2>Get In Touch</h2>
+        <p>
+          Feel free to contact me with the following contact information. Thank
+          you for visiting and hope you enjoy my work as much as I enjoyed
+          creating them.
+        </p>
+        <div class="row">
+          <div class="col-8 col-12-small">
+            <form
+              action="mailto:steven_matos@ymail.com"
+              method="post"
+              enctype="text/plain"
+            >
+              <div class="row gtr-uniform gtr-50">
+                <div class="col-6 col-12-xsmall">
+                  <input type="text" name="name" id="name" placeholder="Name" />
+                </div>
+                <div class="col-6 col-12-xsmall">
+                  <input
+                    type="email"
+                    name="email"
+                    id="email"
+                    placeholder="Email"
+                  />
+                </div>
+                <div class="col-12">
+                  <textarea
+                    name="message"
+                    id="message"
+                    placeholder="Message"
+                    rows="4"
+                  ></textarea>
+                </div>
+              </div>
 
-				<!-- Three -->
-					<section id="three">
-						<h2>Get In Touch</h2>
-						<p>Feel free to contact me with the following contact information. Thank you for visiting and hope you enjoy my work as much as I enjoyed creating them.</p>
-						<div class="row">
-							<div class="col-8 col-12-small">
-								<form action="mailto:steven_matos@ymail.com" method="post" enctype="text/plain">
-									<div class="row gtr-uniform gtr-50">
-										<div class="col-6 col-12-xsmall"><input type="text" name="name" id="name" placeholder="Name" /></div>
-										<div class="col-6 col-12-xsmall"><input type="email" name="email" id="email" placeholder="Email" /></div>
-										<div class="col-12"><textarea name="message" id="message" placeholder="Message" rows="4"></textarea></div>
-									</div>	
-								
-								<ul class="actions">
-									<li><input type="submit" value="Send Message" /></li>
-								</ul>
-								</form>
-							</div>
-							<div class="col-4 col-12-small">
-								<ul class="labeled-icons">
-									<li>
-										<h3 class="icon solid fa-home"><span class="label">Address</span></h3>
-										<a href="https://www.google.com/maps/place/Kissimmee,+FL/@28.2991971,-81.470023,12z/data=!3m1!4b1!4m5!3m4!1s0x88dd841a37150be7:0x94e7cd9711fdc20d!8m2!3d28.2919557!4d-81.407571" target="_blank" >Kissimmee, FL 34743</a><br />
-										United States
-									</li>
-									<li>
-										<h3 class="icon solid fa-mobile-alt"><span class="label">Phone</span></h3>
-										407-780-1720
-									</li>
-									<li>
-										<h3 class="icon solid fa-envelope"><span class="label">Email</span></h3>
-										<a href="mailto:steven_matos@ymail.com">steven_matos@ymail.com</a>
-									</li>
-								</ul>
-							</div>
-						</div>
-					</section>
+              <ul class="actions">
+                <li><input type="submit" value="Send Message" /></li>
+              </ul>
+            </form>
+          </div>
+          <div class="col-4 col-12-small">
+            <ul class="labeled-icons">
+              <li>
+                <h3 class="icon solid fa-home">
+                  <span class="label">Address</span>
+                </h3>
+                <a
+                  href="https://www.google.com/maps/place/Kissimmee,+FL/@28.2991971,-81.470023,12z/data=!3m1!4b1!4m5!3m4!1s0x88dd841a37150be7:0x94e7cd9711fdc20d!8m2!3d28.2919557!4d-81.407571"
+                  target="_blank"
+                  >Kissimmee, FL 34743</a
+                ><br />
+                United States
+              </li>
+              <li>
+                <h3 class="icon solid fa-mobile-alt">
+                  <span class="label">Phone</span>
+                </h3>
+                407-780-1720
+              </li>
+              <li>
+                <h3 class="icon solid fa-envelope">
+                  <span class="label">Email</span>
+                </h3>
+                <a href="mailto:steven_matos@ymail.com"
+                  >steven_matos@ymail.com</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
 
-				<!-- Four -->
-<!-- 				
+      <!-- Four -->
+      <!-- 				
 					<section id="four">
 						<h2>Elements</h2>
 
@@ -203,7 +376,7 @@ i++;
 
 print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 						</section> -->
-<!-- 
+      <!-- 
 						<section>
 							<h4>Lists</h4>
 							<div class="row">
@@ -479,32 +652,51 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 
 					</section>
 				 -->
+    </div>
 
-			</div>
+    <!-- Footer -->
+    <footer id="footer">
+      <div class="inner">
+        <ul class="icons">
+          <li>
+            <a
+              href="https://www.linkedin.com/in/steven-matosFED"
+              target="_blank"
+              class="icon brands fa-linkedin"
+              ><span class="label">LinkedIn</span></a
+            >
+          </li>
+          <!-- <li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li> -->
+          <li>
+            <a
+              href="https://github.com/Steven-matos"
+              target="_blank"
+              class="icon brands fa-github"
+              ><span class="label">Github</span></a
+            >
+          </li>
+          <!-- <li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li> -->
+          <li>
+            <a
+              href="mailto:steven_matos@ymail.com"
+              class="icon solid fa-envelope"
+              ><span class="label">Email</span></a
+            >
+          </li>
+        </ul>
+        <ul class="copyright">
+          <li>&copy; Steven M. 2019</li>
+          <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+        </ul>
+      </div>
+    </footer>
 
-		<!-- Footer -->
-			<footer id="footer">
-				<div class="inner">
-					<ul class="icons">
-						<li><a href="https://www.linkedin.com/in/steven-matosFED" target="_blank" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
-						<!-- <li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li> -->
-						<li><a href="https://github.com/Steven-matos" target="_blank" class="icon brands fa-github"><span class="label">Github</span></a></li>
-						<!-- <li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li> -->
-						<li><a href="mailto:steven_matos@ymail.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
-					</ul>
-					<ul class="copyright">
-						<li>&copy; Steven M. 2019</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-					</ul>
-				</div>
-			</footer>
-
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.poptrox.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-
-	</body>
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.poptrox.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
 </html>
